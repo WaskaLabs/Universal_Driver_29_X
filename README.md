@@ -16,15 +16,15 @@ For in-depth information on the UD series functionality in general, phase lead t
 
 SPECS:  
 
-    Expansion headers for external system development
-    Pulse Skip mode
-    Over Current Detection (OCD) mode
-    Phase lead compensation for soft switching
-    24V dual push-pull MOSFET gate drive
-    Undervoltage lockout (UVLO)
-    Phase reverse jumpers
-    Polar connectors for safety and proper phasing
-    Thermal layout for voltage regulators
+-Expansion headers for external system development
+-Pulse Skip mode
+-Over Current Detection (OCD) mode
+-Phase lead compensation for soft switching
+-24V dual push-pull MOSFET gate drive
+-Undervoltage lockout (UVLO)
+-Phase reverse jumpers
+-Polar connectors for safety and proper phasing
+-Thermal layout for voltage regulators
 
 EXTENSIONS:
 
