@@ -7,7 +7,7 @@
 
 The UD29X stands for the Universal Driver (UD) 2.9 eXtensible. It is based on the DRSSTC driver series originally designed by Steve Ward, and optimized over time by various coilers around the world. This driver was designed from scratch using notes from various documented builds over the years, and is being sold with permission of the original designer, Steve Ward. At its heart, the UD29X is essentially a standard SMD UD like the UD2.7C but with a few major and minor differences:
 
--   Pulse skip functionality inspired from the THT UD2.9 by Daniel Marks added (https://github.com/profdc9/DRSSTC-PCB-Pack).
+-   Pulse skip functionality inspired by the THT UD2.9 by Daniel Marks added (https://github.com/profdc9/DRSSTC-PCB-Pack).
 -   Breakout headers instead of LEDs for extension options (more on this later.)
 -   Compact / low component count design (solder jumpers instead of 2 pin headers, one gate drive channel (2 dual channel MOSFETs))
 -   UVLO set with a resistor instead of tune pot. (Not usually necessary to tune)
