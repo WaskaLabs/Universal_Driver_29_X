@@ -18,15 +18,15 @@ For in-depth information on the UD series functionality in general, phase lead t
 
 SPECS:  
 
-    Expansion headers for external system development
-    Pulse Skip mode
-    Over Current Detection (OCD) mode
-    Phase lead compensation for soft switching
-    24V dual push-pull MOSFET gate drive
-    Undervoltage lockout (UVLO)
-    Phase reverse jumpers
-    Polar connectors for safety and proper phasing
-    Thermal layout for voltage regulators
+-    Expansion headers for external system development
+-    Pulse Skip mode
+-    Over Current Detection (OCD) mode
+-    Phase lead compensation for soft switching
+-    24V dual push-pull MOSFET gate drive
+-    Undervoltage lockout (UVLO)
+-    Phase reverse jumpers
+-    Polar connectors for safety and proper phasing
+-    Thermal layout for voltage regulators
 
 EXTENSIONS:
 
@@ -60,9 +60,9 @@ One of the first things to do when designing your setup for a DRSSTC is to calcu
 
 Example configurations: For simplicity in 100V increments, these are my go-to's.
 
-    0 - 250 A(peak)      1:16:16 = 1:256      ~2V / 100A
-    250 - 500 A(peak)    1:23:22 = 1:506        ~1V / 100A
-    500 - 1000 A(peak)   1:32:32 = 1:1024      ~0.5V / 100A
+-    0 - 250 A(peak)      1:16:16 = 1:256      ~2V / 100A
+-    250 - 500 A(peak)    1:23:22 = 1:506        ~1V / 100A
+-    500 - 1000 A(peak)   1:32:32 = 1:1024      ~0.5V / 100A
 
 If using pulse skip or OCD, your OCD CT should be wound the same as your Feedback CT. The ends of the CTs and GDT should be terminated with a female 2 pin polarized MOLEX connector to plug directly into the board.
 
@@ -72,7 +72,7 @@ OTHER BOARD CONFIGS:
 
 C22 is the C33 from loneoceans documentation. The value of the cap should be set for the frequency the board is expected to operate. Example values are:
 
-    2.2nF (<100KHz)
-    1nF (100 - 200KHz)
-    <1nF (>200KHz)
+-    2.2nF (<100KHz)
+-    1nF (100 - 200KHz)
+-    <1nF (>200KHz)
 
