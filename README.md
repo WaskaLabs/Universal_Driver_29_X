@@ -1,8 +1,6 @@
 # Universal_Driver_29_X
 **Newest version of the Universal Driver 2.x series DRSSTC driver with Pulse Skip functionality and System Extentions**
 
-
-
 **OVERVIEW:**
 
 The UD29X stands for the Universal Driver (UD) 2.9 eXtensible. It is based on the DRSSTC driver series originally designed by Steve Ward, and optimized over time by various coilers around the world. This driver was designed from scratch using notes from various documented builds over the years, and is being sold with permission of the original designer, Steve Ward. At its heart, the UD29X is essentially a standard SMD UD like the UD2.7C but with a few major and minor differences:
@@ -16,6 +14,7 @@ The UD29X stands for the Universal Driver (UD) 2.9 eXtensible. It is based on th
 -   SMD burden resistors (on bottom of board)  
 
 For in-depth information on the UD series functionality in general, phase lead tuning, and parts, world renown coiler Gao Guangyan over at loneoceans.com/labs/ud27/ has an amazing write-up and very detailed document explaining the inner workings and theory of the UD driver operation and tuning. This documentation here will provide getting started and functional information and reference for the UD29X itself relevant to using the system and the extensions available.
+
 
 **SPECS:**  
 
