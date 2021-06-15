@@ -13,7 +13,7 @@ The UD29X stands for the Universal Driver (UD) 2.9 eXtensible. It is based on th
 -   24 VDC input only (No bridge rectifier. Use normal 24V 2-5A switching power supply)
 -   SMD burden resistors (on bottom of board)  
 
-For in-depth information on the UD series functionality in general, phase lead tuning, and parts, world renown coiler Gao Guangyan over at loneoceans.com/labs/ud27/ has an amazing write-up and very detailed document explaining the inner workings and theory of the UD driver operation and tuning. This documentation here will provide getting started and functional information and reference for the UD29X itself relevant to using the system and the extensions available.
+For in-depth information on the UD series functionality in general, phase lead tuning, and parts, world renown coiler Gao Guangyan over at loneoceans.com/labs/ud27/ has an amazing write-up and very detailed document explaining the inner workings and theory of the UD driver operation and tuning. This documentation here will provide functional information and reference for the UD29X itself relevant to using the system and the extensions available.
 
 
 **SPECS:**  
