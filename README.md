@@ -2,29 +2,31 @@
 Newest version of the Universal Driver 2.x series DRSSTC driver with Pulse Skip functionality and System Extentions
 
 
+
+
 OVERVIEW:   The UD29X stands for the Universal Driver (UD) 2.9 eXtensible. It is based on the DRSSTC driver series originally designed by Steve Ward, and optimized over time by various coilers around the world. This driver was designed from scratch using notes from various documented builds over the years, and is being sold with permission of the original designer, Steve Ward. At its heart, the UD29X is essentially a standard SMD UD like the UD2.7C but with a few major and minor differences:
 
-    Pulse skip functionality from the THT UD2.9 by Daniel Marks (profdc9 on github) added.
-    Breakout headers instead of LEDs for extension options (more on this later.)
-    Compact / low component count design (solder jumpers instead of 2 pin headers, one gate drive channel (2 dual channel MOSFETs))
-    UVLO set with a resistor instead of tune pot. (Not usually necessary to tune)
-    Single ST style HFBR-2412T or OPF-2412T fiberoptic receiver instead of IF option. (Most commonly used – Extensions may be added later for IF series)
-    24 VDC input only (No bridge rectifier. Use normal 24V 2-5A switching power supply)
-    SMD burden resistors (on bottom of board)  
+   Pulse skip functionality from the THT UD2.9 by Daniel Marks (profdc9 on github) added.
+   Breakout headers instead of LEDs for extension options (more on this later.)
+   Compact / low component count design (solder jumpers instead of 2 pin headers, one gate drive channel (2 dual channel MOSFETs))
+   UVLO set with a resistor instead of tune pot. (Not usually necessary to tune)
+   Single ST style HFBR-2412T or OPF-2412T fiberoptic receiver instead of IF option. (Most commonly used – Extensions may be added later for IF series)
+   24 VDC input only (No bridge rectifier. Use normal 24V 2-5A switching power supply)
+   SMD burden resistors (on bottom of board)  
 
 For in-depth information on the UD series functionality in general, phase lead tuning, and parts, world renown coiler Gao Guangyan over at loneoceans.com/labs/ud27/ has an amazing write-up and very detailed document explaining the inner workings and theory of the UD driver operation and tuning. This documentation here will provide getting started and functional information and reference for the UD29X itself relevant to using the system and the extensions available.
 
 SPECS:  
 
--Expansion headers for external system development
--Pulse Skip mode
--Over Current Detection (OCD) mode
--Phase lead compensation for soft switching
--24V dual push-pull MOSFET gate drive
--Undervoltage lockout (UVLO)
--Phase reverse jumpers
--Polar connectors for safety and proper phasing
--Thermal layout for voltage regulators
+    Expansion headers for external system development
+    Pulse Skip mode
+    Over Current Detection (OCD) mode
+    Phase lead compensation for soft switching
+    24V dual push-pull MOSFET gate drive
+    Undervoltage lockout (UVLO)
+    Phase reverse jumpers
+    Polar connectors for safety and proper phasing
+    Thermal layout for voltage regulators
 
 EXTENSIONS:
 
